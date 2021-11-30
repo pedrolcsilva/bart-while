@@ -1,0 +1,93 @@
+body {
+    margin: 0
+}
+
+#upperwall{
+    position: absolute;
+    background-color: #a3b752;
+    height: 600px;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.705);
+}
+
+#midwall{
+    position: absolute;
+    background-color: #6b7631;
+    margin-top: 600px;
+    height: 250px;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.705);
+    
+}
+
+#bottomwall{
+    position: absolute;
+    background-color: #798053;
+    margin-top: 850px;
+    height: 30px;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.705);
+}
+
+#ground{
+    position: absolute;
+    background-color: #623625;
+    margin-top: 880px;
+    height: 100px;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.705);
+}
+
+#blackboard {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 1200px;
+    height: 600px;
+    background-color: rgb(2, 29, 0);
+    border: 10px solid rgb(63, 36, 31);
+}
+
+.board-line {
+    width: 800px;
+    height: 30px;
+    margin-left: 10px;
+    font-family: cursive;
+    font-size: 20px;
+    color: white;
+}
+
+#image {
+    margin-left: 1100px;
+    margin-top: 380px;
+    position: absolute;
+    height: 550px;
+}
+
+.secundary {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.secundary label {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.secundary input {
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+
+#btn-start {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(253, 207, 0);
+}
